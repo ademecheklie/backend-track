@@ -9,9 +9,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 //routes
-app.use('/api/v1', nameRoute);
-app.use('/api/v1/', dreamRoute);
-app.use('/api/v1/', hobbyRoute);
+app.get('/', (req, res) => {    
+    res.status(200).send('use /name to get name, /dream to get dream and /hobby to get hobby');
+    });
+
+app.use('/', nameRoute);
+app.use('/', dreamRoute);
+app.use('/', hobbyRoute);
 
 
 

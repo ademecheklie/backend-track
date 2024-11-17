@@ -41,16 +41,25 @@ This project is a backend application built using Express.js. It provides a basi
 
 2. Access the routes:
    - Open your browser or use an API testing tool like Postman or thunder client on visual studio code.
-   - Test the following routes:
+   - go through to the following routes:
      - `http://localhost:5000/name`
-       Response: full name as plain text.
-     - `http://localhost:5000/hobby`
-       Response: A JSON object with a favorite hobby.
+     - `http://localhost:5000/hobby` 
      - `http://localhost:5000/dream`
-       Response: A motivational message about a dream or goal.
+       
 
 
 ## Technologies Used
+
 Node.js: JavaScript runtime for building the server.
 Express.js: Web framework to handle routes and HTTP requests.
 
+## Deployment
+
+The application is deployed and publicly accessible online. You can access the live server at:
+
+https://backend-track-qxmsn5wkv-ademecheklies-projects.vercel.app/
+
+and test the following routes:
+/name 
+/hobby 
+/dream 
