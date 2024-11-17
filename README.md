@@ -37,7 +37,7 @@ This project is a backend application built using Express.js. It provides a basi
 1. Start the server:
 
    npm start
-  
+  if another program is running on port 5000, you can specify a different port by setting the PORT  variable before starting the server:
 
 2. Access the routes:
    - Open your browser or use an API testing tool like Postman or thunder client on visual studio code.
