@@ -57,7 +57,7 @@ Express.js: Web framework to handle routes and HTTP requests.
 
 The application is deployed and publicly accessible online. You can access the live server at:
 
-https://backend-track-qxmsn5wkv-ademecheklies-projects.vercel.app/
+https://backend-track-ademecheklies-projects.vercel.app/
 
 and test the following routes:
 /name 
