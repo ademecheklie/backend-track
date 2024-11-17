@@ -10,8 +10,8 @@ app.use(express.urlencoded({ extended: false }));
 
 //routes
 app.use('/api/v1', nameRoute);
-app.get('/dream', dreamRoute);
-app.get('/hobby', hobbyRoute);
+app.use('/api/v1/', dreamRoute);
+app.use('/api/v1/', hobbyRoute);
 
 
 
